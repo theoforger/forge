@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Sono;
+    src: url(sono.ttf);
+}
+
+:root {
+    --cream: #DAD7CD;
+    --sage: #A3B18A;
+    --dark-bg: #2A3D32;
+    font-family: Sono, monospace;
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark-bg);
+    color: var(--cream);
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: var(--cream);
+}
+
+h3 {
+    color: var(--cream);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+a {
+    color: var(--cream);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: white;
+}
+
+.subtitle {
+    color: var(--sage);
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin: 2rem 0;
+}
+
+.quote {
+    color: var(--sage);
+    font-style: italic;
+}
